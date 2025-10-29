@@ -1,27 +1,48 @@
-﻿# Infosys_Internship
+﻿# AgroBot Project
 
 # Task 1 Output
-Basic Login System using Flask
-📘 Overview
-A simple Flask web app that allows a user to log in using dummy credentials.
-Demonstrates form handling, flash messages, and route redirection.
+  Basic Login System using Flask
+  📘 Overview
+  A simple Flask web app that allows a user to log in using dummy credentials.
+  Demonstrates form handling, flash messages, and route redirection.
 
 🗂️ Project Structure
-app.py
-
-login.html
+  app.py
+  login.html
 
 ⚙️ Setup
-Install Flask and run the app:
+  Install Flask and run the app:
+  pip install flask
+  python app.py
 
-pip install flask
-
-python app.py
-
-Then open in your browser: 👉 http://127.0.0.1:5000 or set up own new port using flask run -p 5001 👉 http://127.0.0.1:5001
 <img width="527" height="373" alt="Screenshot 2025-10-13 211835" src="https://github.com/user-attachments/assets/062b979c-8e3f-461d-a58c-e2c5466a79a0" />
 
 # Task 2 Output
+
+📘 Overview
+  An AI-powered Agriculture Chatbot built using Flask with user authentication.
+  Users can register, log in, and chat with a virtual farming assistant that provides advice on fertilizers, pests, and weather.
+
+⚙️ Setup Instructions
+  1️⃣ Install Dependencies
+  pip install flask flask_sqlalchemy flask_bcrypt
+
+2️⃣ Run the App
+  python app.py
+
+##3️⃣ Open in Browser
+
+  👉 http://127.0.0.1:5000/
+
+  💬 Chatbot Features
+    Responds to queries on fertilizer, pests, and weather
+    Provides general agriculture tips
+    Simple & clean chat UI
+
+🔐 Authentication Features
+  Secure user registration & login
+  Passwords hashed with Flask-Bcrypt
+  Session management with Flask-Session
 
 <img width="558" height="568" alt="Screenshot 2025-10-23 232719" src="https://github.com/user-attachments/assets/ff97deff-302a-4b66-a3ba-92d12091ff22" />
 <img width="1059" height="721" alt="output" src="https://github.com/user-attachments/assets/29e8e757-da52-411b-82bc-80a01645595e" />
@@ -30,6 +51,34 @@ Then open in your browser: 👉 http://127.0.0.1:5000 or set up own new port usi
 
 # Task 3 Output
 
+# Agriculture AI Chatbot (English + Tamil)
+  An intelligent bilingual chatbot built using Flask (Python) that helps farmers with agricultural advice such as fertilizers, pest control, and weather guidance — available in English and Tamil.
+
+🚀 Features
+🧠 AI-based Chatbot for farming-related questions
+🌐 Bilingual Support – English & Tamil
+🔐 User Authentication System (Signup & Login)
+💬 Interactive Chat Interface
+🗄️ SQLite Database Integration
+🎨 Responsive & Simple UI Design
+⚙️ Tech Stack
+
+Component	Technology
+
+Backend	Flask (Python)
+Frontend	HTML, CSS
+Database	SQLite
+Authentication	Flask-Bcrypt & Flask-Session
+
+💡 How It Works
+
+  User registers or logs in to access the chatbot.
+  The chatbot automatically detects English or Tamil language.
+  Based on keywords (e.g., fertilizer, pest, weather), it provides agricultural advice.
+  User chats continue until logout.
+
+
 <img width="1145" height="845" alt="output" src="https://github.com/user-attachments/assets/c7f94f78-8624-400d-95cf-b3ed9df3222c" />
+
 
 
