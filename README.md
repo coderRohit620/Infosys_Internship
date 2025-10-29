@@ -1,7 +1,24 @@
 ﻿# Infosys_Internship
 
 # Task 1 Output
+Basic Login System using Flask
+📘 Overview
+A simple Flask web app that allows a user to log in using dummy credentials.
+Demonstrates form handling, flash messages, and route redirection.
 
+🗂️ Project Structure
+app.py
+
+login.html
+
+⚙️ Setup
+Install Flask and run the app:
+
+pip install flask
+
+python app.py
+
+Then open in your browser: 👉 http://127.0.0.1:5000 or set up own new port using flask run -p 5001 👉 http://127.0.0.1:5001
 <img width="527" height="373" alt="Screenshot 2025-10-13 211835" src="https://github.com/user-attachments/assets/062b979c-8e3f-461d-a58c-e2c5466a79a0" />
 
 # Task 2 Output
@@ -14,4 +31,5 @@
 # Task 3 Output
 
 <img width="1145" height="845" alt="output" src="https://github.com/user-attachments/assets/c7f94f78-8624-400d-95cf-b3ed9df3222c" />
+
 
