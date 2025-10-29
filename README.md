@@ -63,13 +63,6 @@
 🎨 Responsive & Simple UI Design
 ⚙️ Tech Stack
 
-Component	Technology
-
-Backend	Flask (Python)
-Frontend	HTML, CSS
-Database	SQLite
-Authentication	Flask-Bcrypt & Flask-Session
-
 💡 How It Works
 
   User registers or logs in to access the chatbot.
@@ -79,6 +72,7 @@ Authentication	Flask-Bcrypt & Flask-Session
 
 
 <img width="1145" height="845" alt="output" src="https://github.com/user-attachments/assets/c7f94f78-8624-400d-95cf-b3ed9df3222c" />
+
 
 
 
