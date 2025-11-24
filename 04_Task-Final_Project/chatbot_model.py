@@ -7,7 +7,7 @@ try:
     TRANSLATOR = Translator(); HAS_GOOGLETRANS = True
 except Exception:
     TRANSLATOR = None; HAS_GOOGLETRANS = False
-OPENAI_API_KEY = os.getenv('OPENAI_API_KEY') or None
+OPENAI_API_KEY = os.getenv() or None
 if OPENAI_API_KEY:
     try:
         import openai; openai.api_key = OPENAI_API_KEY; HAS_OPENAI = True
@@ -79,3 +79,4 @@ def process_message(user_profile: Dict[str,Any], message_text: str) -> str:
         resp = openai_fallback(user_profile or {}, english_text, target_lang=(user_profile.get('preferred_language') or detected or 'en')[:2])
         if resp: return resp
     return "I don't have that answer in KB. Try asking about a specific crop or pest."
+
